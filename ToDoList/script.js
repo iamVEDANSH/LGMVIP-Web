@@ -30,7 +30,9 @@ document.querySelector('#add').onclick = function(){
           })
       }
 
-    
+      document.querySelector("#add").addEventListener("click", function(){
+        document.querySelector("#createlist").value = " ";
+      })
       
   }
 }
